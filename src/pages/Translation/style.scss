@@ -1,0 +1,111 @@
+// thead.theadclss.thead {
+//     background: #197d9f;
+//     color: #fff;
+// }
+
+h3.Add\/Update {
+    font-size: 18px;
+    font-weight: 600;
+    color: #197d9f;
+}
+
+.over-flow {
+    height: 60vh !important;
+    overflow-y: scroll !important;
+
+}
+
+i.fas.fa-edit {
+    color: #197d9f;
+}
+
+.nav-link.active:active {
+    color: #197d9f;
+}
+
+.nav-link.active:active {
+    color: #197d9f;
+    font-weight: 600;
+}
+
+i.fa.fa-pen {
+    color: #197d9f;
+}
+
+label.lablecls {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.editicon {
+    cursor: pointer;
+}
+
+button.btn.btn-primary.addcls {
+    width: 124px;
+}
+
+.trnsalationTable {
+    th {
+        // width: 200px;
+    }
+}
+
+.td-label {
+    display: inline-block;
+    width: calc(100% - 40px);
+    max-width: (200px);
+}
+
+textarea.form-control {
+    min-height: 120px;
+}
+
+.dropclass {
+    background: #FFFFFF !important;
+    border: 1px solid #197D9F !important;
+
+    color: #197D9F !important;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.dropdown-menu.show.consultationdrop {
+    max-height: 189px;
+    overflow: auto;
+    font-size: 14px;
+}
+
+.dropdown-menu.consultationdrop.show {
+    border: 1px;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    color: #197d9f !important;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: #d7f5ff !important;
+}
+
+.nav-tabs a.nav-link {
+    padding: 0.5rem;
+}
+
+.right-btn {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.right-btn button {
+    margin-bottom: 10px;
+}

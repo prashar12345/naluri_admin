@@ -1,0 +1,47 @@
+.sideclass {
+    background: #D7F5FF;
+    // opacity: 0.3;
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+    padding: 0px 58px;
+}
+
+.checkList {
+    label {
+        margin-right: 14px;
+    }
+}
+
+.roleForm {
+    >* {
+        >label {
+            font-weight: 600;
+        }
+    }
+}
+
+#roleModal,
+#viewroleModal {
+    .modal-dialog {
+        max-width: 700px;
+    }
+}
+
+.pemisstionTitle {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 15px;
+    font-size: 14px;
+    padding-bottom: 15px;
+    background-color: #D7F5FF;
+}
+
+.permisstionTable {
+    th {
+        font-weight: 600 !important;
+    }
+}
+
+.dateTh{
+    width: 180px;
+}

@@ -1,0 +1,48 @@
+.maininutcls i.fa.fa-times {
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+    background: #ffffffcf;
+    border-radius: 29px;
+    width: 19px;
+    height: 18px;
+    display: none;
+    z-index: 9999;
+}
+
+.maininutcls:hover .fa.fa-times {
+    display: inline-block;
+}
+
+.maininutcls {
+    display: inline-block;
+    position: relative;
+
+}
+
+.pprofile1 {
+    box-shadow: 0px 0px 12px 0px #808080a8;
+    padding: 21px 22px;
+}
+
+.start {
+    color: red;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+    background-color: #197d9f29;
+    opacity: 1;
+}
+
+// i.fa.fa-search {
+//     display: none;
+// }
+
+// .headerSearch .Searchbar {
+//     background: #FFFFFF;
+//     border-radius: 100px;
+//     border: none;
+//     padding: 10px 35px;
+//     display: none;
+// }

@@ -1,0 +1,52 @@
+.sideclass {
+    background: #D7F5FF;
+    // opacity: 0.3;
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+    padding: 0px 58px;
+}
+
+.checkList {
+    label {
+        margin-right: 14px;
+    }
+}
+
+.td-text {
+    display: inline-block;
+    max-width: 250px;
+}
+
+.poupheding {
+    background: #0984a042;
+    font-weight: 600;
+    padding: 6px 10px;
+}
+
+p.text {
+    word-break: break-all;
+}
+
+.Assessment {
+    flex-wrap: wrap;
+}
+
+.roleForm {
+    >* {
+        >label {
+            font-weight: 600;
+        }
+    }
+}
+
+#questionModal,
+#viewQuestionModal {
+    .modal-dialog {
+        max-width: 900px;
+    }
+}
+
+.deleteOption {
+    color: #f44336;
+    cursor: pointer;
+}

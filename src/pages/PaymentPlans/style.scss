@@ -1,0 +1,35 @@
+.sideclass {
+    background: #D7F5FF;
+    // opacity: 0.3;
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+    padding: 0px 58px;
+}
+
+.addDropdown {
+    .dropdown-menu {
+        left: initial !important;
+        right: 0 !important;
+        top: 100% !important;
+        transform: none !important;
+    }
+}
+
+.phoneInput {
+    display: flex;
+    justify-content: space-between;
+
+    >*:first-child {
+        width: 60px;
+    }
+
+    & *:last-child {
+        width: calc(100% - 70px);
+    }
+}
+
+#plansModal {
+    .modal-dialog {
+        max-width: 600px;
+    }
+}

@@ -1,0 +1,33 @@
+.sideclass {
+    background: #D7F5FF;
+    // opacity: 0.3;
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+    padding: 0px 58px;
+}
+
+.checkList {
+    label {
+        margin-right: 14px;
+    }
+}
+
+.roleForm {
+    >* {
+        >label {
+            font-weight: 600;
+        }
+    }
+}
+
+#questionModal,
+#viewQuestionModal {
+    .modal-dialog {
+        max-width: 900px;
+    }
+}
+
+.deleteOption {
+    color: #f44336;
+    cursor: pointer;
+}
